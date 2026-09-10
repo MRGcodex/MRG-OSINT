@@ -63,7 +63,7 @@ BANNER = r"""
 | |  | |  _ <| |_| |_____| |_| |___) | || |\  | | |
 |_|  |_|_| \_\\____|      \___/|____/___|_| \_| |_|
 
-        MRG-OSINT  |  Open Source Intelligence Toolkit
+  MRG-OSINT By-MRGCodex | Open Source Intelligence Toolkit
 """
 
 VERSION = "1.0.0"
@@ -84,6 +84,7 @@ TIMEOUT = 8
 USERNAME_SITES = {
     "GitHub": "https://github.com/{}",
     "GitLab": "https://gitlab.com/{}",
+    "Snapchat": "https://www.snapchat.com/add/{}",
     "Reddit": "https://www.reddit.com/user/{}/about.json",
     "Instagram": "https://www.instagram.com/{}/",
     "Twitter/X": "https://x.com/{}",
@@ -102,6 +103,53 @@ USERNAME_SITES = {
     "Docker Hub": "https://hub.docker.com/u/{}",
     "PyPI": "https://pypi.org/user/{}/",
     "NPM": "https://www.npmjs.com/~{}",
+    "LinkedIn": "https://www.linkedin.com/in/{}/",
+    "Apple Music": "https://music.apple.com/profile/{}",
+    "Tumblr": "https://{}.tumblr.com/",
+    "Threads": "https://www.threads.net/@{}",
+    "Bluesky": "https://bsky.app/profile/{}.bsky.social",
+    "Noplace": "https://www.thenoplace.com/@{}",
+    "TenTen": "https://tenten.app/{}",
+    "Cara": "https://cara.app/{}",
+    "Airchat": "https://air.chat/{}",
+    "Lemon8": "https://www.lemon8-app.com/@{}",
+    "RedNote": "https://www.xiaohongshu.com/user/profile/{}",
+    "Kick": "https://kick.com/{}",
+    "Trovo": "https://trovo.live/s/{}",
+    "Rumble": "https://rumble.com/c/{}",
+    "Spill": "https://spill.com/@{}",
+    "BeReal": "https://bereal.com/{}/",
+    "Locket": "https://locket.camera/{}",
+    "Lapse": "https://lapse.app/{}",
+    "Poparazzi": "https://poparazzi.com/{}",
+    "Retro": "https://retro.app/{}",
+    "Yubo": "https://yubo.live/{}",
+    "Wizz": "https://wizz.chat/{}",
+    "Gas": "https://gasapp.io/{}",
+    "Saturn": "https://www.joinsaturn.com/{}",
+    "Clubhouse": "https://www.clubhouse.com/@{}",
+    "Airbuds": "https://airbuds.fm/{}",
+    "Substack": "https://{}.substack.com",
+    "Revel": "https://revelapp.com/{}",
+    "Damus": "https://damus.io/{}",
+    "Primal_Nostr": "https://primal.net/p/{}",
+    "Mastodon.social": "https://mastodon.social/@{}",
+    "Misskey.io": "https://misskey.io/@{}",
+    "Firefish": "https://firefish.social/@{}",
+    "Pixelfed": "https://pixelfed.social/{}",
+    "Peertube": "https://peertube.tv/c/{}",
+    "TruthSocial": "https://truthsocial.com/@{}",
+    "Gettr": "https://gettr.com/user/{}",
+    "T2/Pebble": "https://t2.social/{}",
+    "CounterSocial": "https://counter.social/{}",
+    "Post.News": "https://post.news/@{}",
+    "Spoutible": "https://spoutible.com/{}",
+    "RTRO": "https://rtro.co/{}",
+    "Gowalla": "https://gowalla.com/{}",
+    "Clapper": "https://clapperapp.com/{}",
+    "Favorited": "https://favorited.com/{}",
+    "Yope": "https://yope.app/{}",
+    "Dazzle": "https://dazzle.cam/{}",
 }
 
 
@@ -389,7 +437,7 @@ def save_output(data, path):
 def main():
     parser = argparse.ArgumentParser(
         prog="mrg-osint",
-        description="MRG-OSINT - Open Source Intelligence recon toolkit",
+        description="MRG-OSINT By-MRGCodex - Open Source Intelligence recon toolkit",
         epilog=(
             "examples:\n"
             "  mrg_osint.py domain example.com\n"
