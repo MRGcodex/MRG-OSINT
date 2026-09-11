@@ -40,7 +40,7 @@ Other niceties:
 ### Option A — Linux (Debian/Ubuntu/Kali/Parrot, Fedora/RHEL, Arch/BlackArch) & macOS
 
 ```bash
-git clone https://github.com/<your-username>/MRG-OSINT.git
+git clone https://github.com/MRGcodex/MRG-OSINT.git
 cd MRG-OSINT
 chmod +x install.sh
 ./install.sh
