@@ -721,8 +721,6 @@ USERNAME_SITES = {
     "Zcash": "https://z.cash/{}",
     "Dash": "https://www.dash.org/{}",
 
-print(f"✓ Total platforms: {len(USERNAME_SITES)}")
-
 }
 
 
